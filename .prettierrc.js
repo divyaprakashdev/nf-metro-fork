@@ -5,6 +5,7 @@
 // in that env and hands prettier a concrete path. See:
 // https://github.com/prettier/prettier/issues/15388
 module.exports = {
+  printWidth: 120,
   plugins: [require.resolve("prettier-plugin-astro")],
   overrides: [
     {
